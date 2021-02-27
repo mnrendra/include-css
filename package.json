@@ -1,6 +1,6 @@
 {
   "name": "@mnrendra/include-css",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "To copy all of css files into the production (ex: lib) directory",
   "private": false,
   "main": "lib/index.js",
