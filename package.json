@@ -1,9 +1,15 @@
 {
   "name": "@mnrendra/include-css",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "To copy all of css files into the production (ex: lib) directory",
   "private": false,
   "main": "lib/index.js",
+  "bin": {
+    "include-css": "bin/include-css.js"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf lib && npx babel src --out-dir lib && npm --no-git-tag-version version patch"

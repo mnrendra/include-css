@@ -14,6 +14,11 @@ npm i @mnrendra/include-css
 const includeCSS = require('@mnrendra/include-css')
 includeCSS('./originRootDirectory', './distinationRootDirectory')
 ```
+or execute
+```c
+include-css
+```
+from your terminal!
 
 ## Contributing
 Wanna contributing? Please email me [muhammadnurrendra@gmail.com](mailto:muhammadnurrendra@gmail.com)
