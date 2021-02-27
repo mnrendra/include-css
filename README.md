@@ -12,8 +12,7 @@ npm i @mnrendra/include-css
 ## Example
 ```c
 const includeCSS = require('@mnrendra/include-css')
-const allFiles = includeCSS('~/')
-console.log(allFiles)
+includeCSS('./originRootDirectory', './distinationRootDirectory')
 ```
 
 ## Contributing
