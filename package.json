@@ -1,0 +1,44 @@
+{
+  "name": "@mnrendra/include-css",
+  "version": "0.1.1",
+  "description": "To copy all of css files into the production (ex: lib) directory",
+  "private": false,
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf lib && npx babel src --out-dir lib && npm --no-git-tag-version version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnrendra/include-css.git"
+  },
+  "keywords": [
+    "@mnrendra/include-css",
+    "mnrendra",
+    "include-css"
+  ],
+  "author": "Muhammad Rendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnrendra/include-css/issues"
+  },
+  "homepage": "https://github.com/mnrendra/include-css#readme",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/preset-react": "^7.12.13"
+  },
+  "dependencies": {
+    "@mnrendra/lssync": "^0.1.4"
+  }
+}
